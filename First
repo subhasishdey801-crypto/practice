@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cloud Services Platform</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #232f3e;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #37475a;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background-color: #ff9900;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .hero h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 40px 0;
+    }
+    .card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      width: 250px;
+      margin: 15px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .card h3 {
+      color: #232f3e;
+    }
+    footer {
+      background-color: #232f3e;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>☁️ My Cloud Platform</h1>
+    <p>Scalable, Reliable, Secure Cloud Solutions</p>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#docs">Documentation</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Build and Scale Your Applications</h1>
+    <p>Deploy servers, manage databases, and monitor apps with ease.</p>
+  </section>
+
+  <section id="services" class="services">
+    <div class="card">
+      <h3>Compute</h3>
+      <p>Launch virtual servers and scale on demand.</p>
+    </div>
+    <div class="card">
+      <h3>Storage</h3>
+      <p>Secure object and block storage for your data.</p>
+    </div>
+    <div class="card">
+      <h3>Databases</h3>
+      <p>Managed SQL and NoSQL databases.</p>
+    </div>
+    <div class="card">
+      <h3>Networking</h3>
+      <p>Reliable VPC, load balancing, and CDN.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 My Cloud Platform | Inspired by AWS</p>
+  </footer>
+</body>
+</html>
